@@ -1,16 +1,15 @@
 # Allohouston Guides
 
-Welcome to ALLOHOUSTON's comprehensive development documentation. This guide serves as your primary resource for understanding our development tools, best practices, and common solutions to challenges we've encountered.
+Welcome to Allohouston's comprehensive development documentation. This guide serves as your primary resource for understanding our development tools, best practices, and common solutions to challenges we've encountered.
 
 ## Our Development Stack
 
 ### Core Technologies
 
-- **Meteor**: Our full-stack JavaScript framework
-- **React**: UI component library
-- **MongoDB**: Primary database
-- **GraphQL**: API query language using Nova
-- **TypeScript**: For type-safe development
+- **[Meteor](https://www.meteor.com)**: Our full-stack JavaScript framework
+- **[React](https://reactjs.org)**: UI component library
+- **[MongoDB](https://www.mongodb.com)**: Primary database
+- **[BlueLibs Nova](https://www.bluelibs.com/docs/package-nova)**: API query language using Nova
 
 ### Development Tools
 

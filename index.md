@@ -4,7 +4,7 @@ layout: home
 
 hero:
     name: "Allohouston Guides"
-    tagline: "Some guides to understand better the ALLOHOUSTON stack."
+    tagline: "Some guides to understand better the Allohouston stack."
     actions:
         - theme: brand
           text: Get Started

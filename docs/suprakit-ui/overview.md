@@ -8,7 +8,7 @@ It provides a robust set of tools and components that streamline the development
 
 ### Meteor Methods Integration
 
-Suprakit UI provides a powerful set of hooks built on top of TanStack Query (formerly React Query) that seamlessly integrate with Meteor's Methods (RPC).
+Suprakit UI provides a powerful set of hooks built on top of [TanStack Query](https://tanstack.com/query) (formerly React Query) that seamlessly integrate with [Meteor's Methods](https://docs.meteor.com/api/meteor.html#methods) (RPC).
 
 These hooks simplify data fetching, caching, and state management while providing full TypeScript support.
 

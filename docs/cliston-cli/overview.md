@@ -22,8 +22,8 @@ Quickly bootstrap new Meteor projects using our battle-tested starter kit:
 - Authentication boilerplate with role-based access
 - Development tools and configurations
 - Integrated i18n support
-- Form handling with Formik and Yup
-- State management with React Query
+- Form handling with [Formik](https://formik.org) and [Yup](https://github.com/jquense/yup)
+- State management with [React Query](https://tanstack.com/query)
 - UI components from SupraKit UI
 
 ### Component Generation
@@ -51,12 +51,12 @@ Streamlined API creation and management:
 
 Cliston CLI is built to work seamlessly with:
 
-- Meteor for full-stack JavaScript development
-- React for UI components
-- Formik and Yup for form handling
-- React Router for navigation
-- GraphQL with Nova for data fetching
-- SimpleSchema for data validation
-- SupraKit UI for component library
+- [Meteor](https://www.meteor.com) for full-stack JavaScript development
+- [React](https://reactjs.org) for UI components
+- [Formik](https://formik.org) and [Yup](https://github.com/jquense/yup) for form handling
+- [React Router](https://reactrouter.com) for navigation
+- [BlueLibs Nova](https://www.bluelibs.com/docs/package-nova) for data fetching
+- [SimpleSchema](https://github.com/aldeed/simple-schema-js) for data validation
+- Suprakit UI for component library
 
 For detailed command documentation and examples, explore the [Getting Started](./get-started.md) guide and [Commands](./commands.md) reference.
