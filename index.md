@@ -3,23 +3,21 @@
 layout: home
 
 hero:
-  name: "Allohouston Guides"
-  text: "Some guides to understand better the ALLOHOUSTON stack."
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+    name: "Allohouston Guides"
+    tagline: "Some guides to understand better the ALLOHOUSTON stack."
+    actions:
+        - theme: brand
+          text: Get Started
+          link: /docs/overview
+        - theme: alt
+          text: Github
+          link: https://github.com/allohouston
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    - title: Cliston CLI
+      details: Master Cliston CLI to boost your productivity and scaffold new projects.
+    - title: Suprakit UI
+      details: Accelerate your development with Suprakit UI and our ready-made components.
+    - title: Coming soon...
+      details: Stay tuned for exciting new features on the way.
 ---
-
