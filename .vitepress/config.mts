@@ -52,6 +52,10 @@ export default defineConfig({
     },
     lastUpdated: true,
     vite: {
-        plugins: [llmstxt()],
+        plugins: [
+            llmstxt({
+                generateLLMsFullTxt: true,
+            }),
+        ],
     },
 });
