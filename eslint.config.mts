@@ -9,12 +9,13 @@ import { defineConfig } from "eslint/config";
 export default defineConfig([
     {
         files: ["**/*.{js,mjs,cjs,ts,mts,cts}"],
+        ignores: ["**/dist/**", "**/build/**", "**/out/**", "**/public/**", "**/.vitepress/**"],
         plugins: { js },
         extends: ["js/recommended"],
         languageOptions: { globals: globals.browser },
     },
     tseslint.configs.recommended,
-    { files: ["**/*.json"], plugins: { json }, language: "json/json", extends: ["json/recommended"] },
+    { files: ["**/*.json"], ignores: ["package-lock.json"], plugins: { json }, language: "json/json", extends: ["json/recommended"] },
     { files: ["**/*.jsonc"], plugins: { json }, language: "json/jsonc", extends: ["json/recommended"] },
     { files: ["**/*.md"], plugins: { markdown }, language: "markdown/gfm", extends: ["markdown/recommended"] },
     { files: ["**/*.css"], plugins: { css }, language: "css/css", extends: ["css/recommended"] },
