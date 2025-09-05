@@ -21,9 +21,19 @@ export default defineConfig({
                 ],
             },
             {
+                text: "Cliston CLI",
+                items: [
+                    { text: "Overview", link: "/docs/cliston-cli/overview" },
+                    { text: "Get started", link: "/docs/cliston-cli/get-started" },
+                    { text: "Commands", link: "/docs/cliston-cli/commands" },
+                ],
+            },
+            {
                 text: "Suprakit UI",
                 items: [
                     { text: "Overview", link: "/docs/suprakit-ui/overview" },
+                    { text: "Hooks", link: "/docs/suprakit-ui/hooks" },
+                    { text: "Components", link: "/docs/suprakit-ui/components" },
                     { text: "Make a form", link: "/docs/suprakit-ui/make-a-form" },
                     { text: "Make a table", link: "/docs/suprakit-ui/make-a-table" },
                 ],
