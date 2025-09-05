@@ -11,6 +11,10 @@ export default defineConfig({
             { text: "Guides", link: "/docs/overview" },
         ],
 
+        search: {
+            provider: "local",
+        },
+
         sidebar: [
             {
                 text: "Guides",
@@ -41,8 +45,12 @@ export default defineConfig({
             },
         ],
 
+        editLink: {
+            pattern: "https://github.com/allohouston/allohouston-guides/edit/main/docs/:path",
+        },
         socialLinks: [{ icon: "github", link: "https://github.com/allohouston" }],
     },
+    lastUpdated: true,
     vite: {
         plugins: [llmstxt()],
     },
